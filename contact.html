@@ -11,28 +11,32 @@
 <body>
     <div class="wrapper">
         <header>
-            <h1 class="logo">Beth Ehleringer</h1>
-            <div class="topnav">
-                <ul>
-                    <li><a href="index.html">About</a></li>
-                    <li><a href="portfolio.html">Portfolio</a></li>
-                    <li><a href="contact.html" class="active">Contact</a></li>
-                </ul>
-            </div>
+            <div class="content">
+                <h1 >Beth Ehleringer</h1>
+                    <nav>
+                        <a href="index.html" >About</a>
+                        <a href="portfolio.html">Portfolio</a>
+                        <a href="contact.html" class="active">Contact</a>
+                    </nav>
+                </div>
         </header>
 
         <section>
             <h2>Contact </h2>
+            <hr>
             <form>
-                <label>Name</label><input></input>
-                <label>Email</label><input></input>
-                <label>Message</label><input></input>
-                <button>Submit</button>
+                <label>Name</label><br/>
+                <input type="text" name="name" value="Your Name" size="60"></input><br/><br/>
+                <label>Email</label><br/>
+                <input type="email" name="email" value="Your Email Address" size="60"></input><br/><br/>
+                <label>Message</label><br/>
+                <textarea cols="50" rows="8"></textarea><br/><br/>
+                <input class="button" type="submit" value="submit">
             </form>
         </section>
 
         <footer>
-            <p></p>
+            <p>&copy; 2018</p>
         </footer>
     </div>
 </body>
