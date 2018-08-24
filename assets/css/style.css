@@ -89,6 +89,7 @@ form {
     margin:0px auto;
     padding:0px;
     
+    
 }
 
 .content {
@@ -97,7 +98,7 @@ form {
 }
 
 .main {
-    background-color:#FFF;
+    margin-bottom: 100px; background-color:#FFF;
     border: solid 1px #ddd;
 }
 
@@ -107,7 +108,7 @@ article {
 
 .main img {
     float: left;
-    margin:0px 20px 20px 20px;
+    margin-bottom: 10px;
 }
 
 nav {
@@ -141,19 +142,19 @@ hr {
     border-width: 1px;
 }
 
-.gallery {
+#gallery {
 
     margin-bottom:20px;
 
 }
 
-figure {
+#gallery figure {
     height:300px;
     width:300px;
     
 }
 
-figure img {
+#galleryfigure img {
     z-index: -1;
     
 }
@@ -173,7 +174,7 @@ figure img {
     display:inline-block;
 }
 
-figcaption {
+#gallery figcaption {
     width:100%;
     background-color: #4aaaa5;
     color:#fff;
@@ -184,6 +185,20 @@ figcaption {
     text-align: center;
     z-index:2;
     
+
+}
+
+.main figure {
+    margin: 0px 20px 20px 10px;
+    float: left;
+}
+
+.main figure figcaption {
+    background-color:#FFF;
+    color:#777;
+    text-align:center;
+    font-size:14px;
+    font-style: italic;
 
 }
 
